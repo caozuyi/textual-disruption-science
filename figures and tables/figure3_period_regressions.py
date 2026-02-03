@@ -17,7 +17,7 @@ Analysis:
 Data requirement:
 - meta_table.parquet (paper-level merged dataset)
 
-Author: Zuyi Cao
+Author: 
 """
 
 # =========================================================
@@ -202,3 +202,4 @@ plt.close()
 
 print("Saved figure:", OUT_PNG)
 print("Figure 3 pipeline completed successfully.")
+
