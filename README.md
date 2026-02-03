@@ -102,11 +102,9 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`figure4_ExtendedDataFig4_rolling\_window.py`\*\*  
-
-&nbsp; Rolling-window regressions estimating the time-varying effect of textual disruption on citation outcomes.  
-
-&nbsp; Used for \*\*Fig. 4 (main text)\*\* and \*\*Extended Data Fig. 4\*\*.
+- **`figure4_ExtendedDataFig4_rolling_window.py`**  
+  Rolling-window regression analyses estimating the time-varying **association between textual disruption and citation recognition**.  
+  Used for **Fig. 4 (main text)**, which reports the association between textual disruption and **long-run citation recognition** based on ten-year citation counts (sci_C10), and **Extended Data Fig. 4**, which reports the corresponding association for **early citation recognition** based on five-year citation counts (sci_C5)..
 
 
 
@@ -132,11 +130,9 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`ExtendedDataFig3_effect_size_trajectory.py`\*\*  
-
-&nbsp; Estimates rolling-window effect-size trajectories under alternative window specifications.  
-
-&nbsp; Corresponds to \*\*Extended Data Fig. 3\*\*.
+- **`ExtendedDataFig3_effect_size_trajectory.py`**  
+  Estimates rolling-window **effect-size trajectories**, focusing on the magnitude and temporal stability of regression coefficients under alternative window-length specifications.  
+  This script corresponds to **Extended Data Fig. 3**, which serves as a robustness analysis of coefficient magnitudes rather than a substantive association plot.
 
 
 
