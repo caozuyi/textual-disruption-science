@@ -20,7 +20,7 @@ All models are estimated using:
 The implementation is designed to be memory-safe for
 datasets with tens of millions of observations.
 
-Author: Zuyi Cao
+Author: 
 """
 
 # =========================================================
@@ -325,3 +325,4 @@ df_out = pd.DataFrame(all_results)
 df_out.to_csv(OUT_FILE, index=False)
 
 print("✓ All tables generated:", OUT_FILE)
+
