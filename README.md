@@ -1,9 +1,3 @@
-# textual-disruption-science
-Replication code for figures and tables in the manuscript "When disruptive science does not decline: Textual innovation and the decoupling of idea generation and scientific recognition, 1900–2021".
-\# Replication Code for Textual Disruption and Scientific Impact
-
-
-
 This repository provides the full analysis code used to generate the main and extended data figures and tables in the manuscript:
 
 
@@ -62,13 +56,13 @@ Scripts for constructing the core analysis dataset and textual innovation indica
 
 
 
-\- \*\*`build\_meta\_table.py`\*\*  
+\- \*\*`build_meta_table.py`\*\*  
 
 &nbsp; Builds the publication-level analysis table by merging bibliographic metadata, citation outcomes, and text-based indicators.
 
 
 
-\- \*\*`build\_textual\_innovation\_indicators.py`\*\*  
+\- \*\*`build_textual_innovation_indicators.py`\*\*  
 
 &nbsp; Computes raw and standardized measures of textual novelty, consolidation, and textual disruption from publication text.
 
@@ -94,7 +88,7 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`figure2\_ExtendedDataFig1\_yearly\_aggregation.py`\*\*  
+\- \*\*`figure2_ExtendedDataFig1_yearly_aggregation.py`\*\*  
 
 &nbsp; Year-level aggregation of raw and standardized textual innovation indicators.  
 
@@ -102,13 +96,13 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`figure3\_period\_regressions.py`\*\*  
+\- \*\*`figure3_period_regressions.py`\*\*  
 
 &nbsp; Period-specific regression analyses examining shifts in the relationship between textual disruption and citation impact.
 
 
 
-\- \*\*`figure4\_ExtendedDataFig4\_rolling\_window.py`\*\*  
+\- \*\*`figure4_ExtendedDataFig4_rolling\_window.py`\*\*  
 
 &nbsp; Rolling-window regressions estimating the time-varying effect of textual disruption on citation outcomes.  
 
@@ -124,13 +118,13 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`ExtendedDataFig2\_compute.py`\*\*  
+\- \*\*`ExtendedDataFig2_compute.py`\*\*  
 
 &nbsp; Computes year-level combination novelty trajectories.
 
 
 
-\- \*\*`ExtendedDataFig2\_plot.py`\*\*  
+\- \*\*`ExtendedDataFig2_plot.py`\*\*  
 
 &nbsp; Plots the year-level and smoothed trajectories of combination novelty.  
 
@@ -138,7 +132,7 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`ExtendedDataFig3\_effect\_size\_trajectory.py`\*\*  
+\- \*\*`ExtendedDataFig3_effect_size_trajectory.py`\*\*  
 
 &nbsp; Estimates rolling-window effect-size trajectories under alternative window specifications.  
 
@@ -154,7 +148,7 @@ Scripts used to generate all figures and tables reported in the paper.
 
 
 
-\- \*\*`Table1\_EDT1\_EDT2\_STREAM\_HC3.py`\*\*  
+\- \*\*`Table1_EDT1_EDT2_STREAM_HC3.py`\*\*  
 
 &nbsp; Stream-based regression script producing the main regression results reported in \*\*Table 1\*\*,  
 
