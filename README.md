@@ -11,7 +11,7 @@ The code is shared to ensure transparency, replicability, and clarity of the emp
 
 ## 1. Overview
 
-The empirical analysis is based on large-scale publication-level data constructed from OpenAlex metadata and full-text-derived indicators.  
+The empirical analysis is based on large-scale publication-level data constructed from OpenAlex metadata and full-text-derived indicators, and SciSciNet lake.  
 Due to the scale of the underlying dataset (tens of millions of publications), the original computations required a high-performance computing (HPC) environment.
 
 To facilitate external review and replication, this repository provides stream-safe, memory-efficient, and fully transparent Python scripts that reproduce:
